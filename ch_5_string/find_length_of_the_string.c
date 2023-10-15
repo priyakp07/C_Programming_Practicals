@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     int i;
     printf("Enter a string:\n");
     fgets(a,50,stdin);
-    for ( i = 1; a[i]!='\0'; i++);
+    for ( i = 0; a[i]!='\0'; i++);
     printf("length of the string is: %d",i);           
     return 0;
 }
